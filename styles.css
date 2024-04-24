@@ -20,3 +20,22 @@ body, html {
     font-size: 20px;
     z-index: 1000;
 }
+
+
+#playButton {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 100px; /* Align text vertically */
+    cursor: pointer;
+    z-index: 1001;
+}
