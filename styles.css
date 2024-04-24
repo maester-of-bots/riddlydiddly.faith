@@ -21,6 +21,29 @@ body, html {
     z-index: 1000;
 }
 
+body {
+    font-size: 16px; /* Base font size */
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Smaller font size on smaller screens */
+    }
+    button {
+        padding: 10px 20px; /* Larger padding for easier interaction on touch devices */
+        font-size: 1em; /* Larger text inside the button */
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* Adjustments for tablets */
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for mobile phones */
+}
+
 
 #playButton {
     position: fixed;
